@@ -15,36 +15,38 @@ const ContactUs = () => {
             </div>
             
 
-            <div className="hero min-h-screen ">
+           <form>
+           <div className="hero min-h-screen ">
 
             
 
-  <div className="hero-content text-center ">
-  
-    <div className="card flex-col lg:flex-row  ">
-      <div className="card-body">
-        <div className="">
-         
-          <input type="text" placeholder="Email" className="input input-bordered" />
-        </div>
-        <div className="">
-         
-          <input type="text" placeholder="password" className="input input-bordered" />
-        
-        </div>
-        <div className="">
-         
-          <input type="text" placeholder="Your message" className="input input-bordered" />
-        
-        </div>
-        <div className=" mt-6">
-          <PrimaryButton>Submit</PrimaryButton>
-        </div>
+<div className="hero-content text-center ">
+
+  <div className="card flex-col lg:flex-row  ">
+    <div className="card-body">
+      <div className="">
+       
+        <input type="text" placeholder="Your Name" className="input input-bordered" />
+      </div>
+      <div className="">
+       
+        <input type="text" placeholder="Subject" className="input input-bordered" />
+      
+      </div>
+      <div className="">
+       
+        <input type="text" placeholder="Your message" className="input input-bordered" />
+      
+      </div>
+      <div className=" mt-6">
+        <PrimaryButton>Submit</PrimaryButton>
       </div>
     </div>
   </div>
 </div>
+          </div>
 
+           </form>
 
             
         </section>
